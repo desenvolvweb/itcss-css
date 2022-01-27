@@ -1,0 +1,10 @@
+:root {
+	--size-1: 4px;
+	--size-2: 8px;
+	--size-3: 12px;
+	--size-4: 16px;
+	--size-5: 20px;
+
+  --max-width: 1200px;
+  --default-radius: var(--size-1);
+}

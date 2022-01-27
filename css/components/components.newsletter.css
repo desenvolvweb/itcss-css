@@ -1,0 +1,31 @@
+.c-newsletter {
+  border: 5px double var(--primary-color);
+  margin: calc(var(--size-4) * 2) auto;
+  max-width: 33%;
+  padding: var(--size-3);
+}
+
+.c-newsletter__title {
+  font-size: 125%;
+  margin: 0;
+}
+
+.c-newsletter__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-newsletter__content > * {
+  flex: 1;
+  margin-top: var(--size-1);
+  max-width: 100%;
+}
+
+.c-newsletter__input {
+  margin-right: var(--size-1);
+}
+
+.c-newsletter .c-button {
+  max-width: 100px;
+}

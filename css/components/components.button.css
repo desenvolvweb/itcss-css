@@ -1,0 +1,16 @@
+.c-button {
+  align-items: center;
+  background-color: var(--contrast-color);
+  border: none;
+  border-radius: var(--default-radius);
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  padding: var(--size-1) var(--size-2);
+  text-decoration: none;
+}
+
+.c-button:hover {
+  background-color: var(--contrast-color-hover);
+}
